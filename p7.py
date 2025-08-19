@@ -1,0 +1,5 @@
+n=int(input("enter the number:"))
+arr=list(map(int,input("enter the value:").split()))
+score=list(set(arr))
+score.sort()
+print(score)
